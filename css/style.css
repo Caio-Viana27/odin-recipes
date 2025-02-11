@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.main-title {
+    margin-top: 5%;
+}
+
+.main-title .title {
+    text-align: center;
+    color: rgb(240, 149, 45);
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+a:visited {
+    color: whitesmoke;
+}
+
+.div-links {
+    width: 30%;
+    margin: 3% auto;
+    background-color: rgb(240, 149, 45);
+    text-align: center;
+    border: 2px solid rgb(240, 149, 45);
+    border-radius: 10px;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.div-links .links {
+    margin: auto 2%;
+    padding: 3%;
+    border: 2px solid rgb(240, 149, 45);
+    border-radius: 10px;
+}
+
+.div-links .links:hover {
+    background-color: rgb(219, 130, 27);
+}
+
+.div-home-links {
+    width: 100%;
+    background-color: rgb(240, 149, 45);
+    padding: 1%;
+}
+
+.main-section {
+    width: 85%;
+    margin: 5% auto 0 auto;
+    background-color: rgb(240, 149, 45);
+    border: 2px solid rgb(240, 149, 45);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
